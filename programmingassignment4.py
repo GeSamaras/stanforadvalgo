@@ -1,5 +1,5 @@
 import random
-
+#
 def contraction(graph):
     while len(graph) > 2:
         u = random.choice(list(graph.keys()))
